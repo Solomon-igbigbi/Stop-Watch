@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0px;
+}
+
+.container {
+    background-color: black;;
+    height: 100vh;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'arial ', sans-serif;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ; */
+    overflow: hidden;
+    /* flex-wrap: wrap; */
+}
+
+
+ #timer {
+    color: white;
+    font-size: 250px;
+    margin-top: 15%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    margin: 20px;
+    background-color: #E44D26;
+    padding: 20px;
+    border-radius: 40px;
+    border-style: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+.little_one {
+    font-size: 100px;
+    color: #E44D26;
+    padding-bottom: 30px;
+}
+
+.little {
+    font-size: 100px;
+    color: #E44D26;
+    padding-bottom: 30px;
+}
+
+@media all and (max-width: 500px) {
+        #timer {
+        color: white;
+        font-size: 70px;
+        margin-top: 70%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .little {
+        font-size: 40px;
+        color: #E44D26;
+        padding-bottom: 5px;
+    }
+    .little_one {
+        font-size: 40px;
+        color: #E44D26;
+        padding-bottom: 5px;
+    }
+    button {
+        width: 80px;
+        margin: 20px;
+        background-color: #E44D26;
+        padding: 15px;
+        border-radius: 40px;
+        border-style: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        outline: none;
+    }
+}
+
+/* @media all and (max-width: 1300px) {
+    #timer {
+        color: white;
+        font-size: 150px;
+        margin-top: 25%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .little {
+        font-size: 70px;
+        color: #E44D26;
+        padding-bottom: 20px;
+    }
+    .little_one {
+        font-size: 70px;
+        color: #E44D26;
+        padding-bottom: 20px;
+    }
+    button {
+        width: 80px;
+        margin: 20px;
+        background-color: #E44D26;
+        padding: 15px;
+        border-radius: 40px;
+        border-style: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        outline: none;
+    }
+} */
